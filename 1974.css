@@ -1,0 +1,43 @@
+body{background-color: black;}
+
+h1 {
+    font-family: 'Void Pixel-7', sans-serif;
+    background-color: red !important;
+    color: aqua;
+}
+
+.gombok{
+    font-family: 'Void Pixel-7', sans-serif;
+    background-color: aqua;
+    color: red !important;
+
+}
+
+#szoveg{
+    font-family: 'Void Pixel-7', sans-serif;
+    padding: 5px;;
+    text-align: center;
+    font-size: 40px;
+    animation: szoveg 1s ease-in; 
+    left: 5em;
+    border: 5px solid rgb(255, 255, 255);
+    width: 50%;
+    margin: auto !important;
+    ;
+    margin: 2px;
+    background-color: red !important;
+    color: aqua !;
+
+
+}
+
+@keyframes szoveg{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}

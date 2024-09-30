@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/future');
+
+body {font-family: 'Future Light', sans-serif !important ; 
+    background-color: black !important;
+    
+}
+h1 {
+    font-family: 'Future Light', sans-serif;
+    color: aquamarine;
+                                                
+}
+#szoveg{
+    font-family: 'Future Light', sans-serif;
+    padding: 5px;;
+    text-align: center;
+    font-size: 40px;
+    animation: szoveg 1s ease-in; 
+    left: 5em;
+    border: 5px solid rgb(255, 255, 255);
+    width: 50%;
+    margin: auto !important;
+    ;
+    color: aquamarine;
+
+
+}
+
+@keyframes szoveg{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+.gombok{
+    font-family: 'Future Light', sans-serif;
+}

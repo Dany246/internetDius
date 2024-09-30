@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/void-pixel-7');
+
+body{
+    background-color: blue;
+    color: rgb(37, 37, 249);
+    
+}
+h1{
+    font-family: 'Void Pixel-7', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    animation: cim 1s ease-in; 
+    left: 5em;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto !important;
+    background-color: rgb(169, 173, 175);
+                                              
+}
+
+@keyframes cim{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+.gombok{
+padding: 5px;;
+font-family: 'Void Pixel-7', sans-serif;
+text-align: center;
+font-size: 40px;
+animation: cim 1s ease-in; 
+left: 5em;
+border: 5px solid black;
+width: 50%;
+margin: auto !important;
+background-color: rgb(169, 173, 175);
+color: rgb(27, 27, 247);
+}
+
+
+                             
+
+
+
+
+@keyframes gombok{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+#szoveg{
+    font-family: 'Void Pixel-7', sans-serif;
+    padding: 5px;;
+    text-align: center;
+    font-size: 40px;
+    animation: szoveg 1s ease-in; 
+    left: 5em;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto !important;
+    background-color: rgb(169, 173, 175);
+
+
+}
+
+@keyframes szoveg{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}

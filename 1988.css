@@ -1,0 +1,38 @@
+h1 {
+    font-family: sans-serif;
+
+}
+
+.gombok{
+    font-family: sans-serif;
+
+}
+
+#szoveg{
+    font-family:  sans-serif;
+    padding: 5px;;
+    text-align: center;
+    font-size: 40px;
+    animation: szoveg 1s ease-in; 
+    left: 5em;
+    border: 5px solid rgb(1, 1, 1);
+    width: 50%;
+    margin: auto !important;
+    ;
+    margin: 2px;
+  
+    color: aqua !;
+
+
+}
+
+@keyframes szoveg{
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
